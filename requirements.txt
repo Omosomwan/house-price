@@ -6,4 +6,7 @@ joblib
 scikit-learn
 xgboost
 langchain
+langchain-openai
+langchain-openrouter
+openai
 openrouter
