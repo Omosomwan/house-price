@@ -89,7 +89,7 @@ from langchain_openai import ChatOpenAI
 
 st.title('AI Assistant')
 
-key = st.secrets["OPENROUTER_API_key"]
+key = st.secrets["OPENROUTER_API_KEY"]
 
 prompt = st.text_input("Ask me any Question on Housing")
 llm = ChatOpenAI(
