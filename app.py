@@ -86,8 +86,10 @@ st.divider()
 # Building AI assistant
 import langchain
 from langchain_openai import ChatOpenAI
-from APIKEY import key
+
 st.title('AI Assistant')
+
+key = st.secrets["OPENROUTER_API_key"]
 
 prompt = st.text_input("Ask me any Question on Housing")
 llm = ChatOpenAI(
